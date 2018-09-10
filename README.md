@@ -8,12 +8,14 @@
 
 ## 会议期刊
 
-*  美国医学物理年会AAPM---https://aapm.org/pubs/default.asp
+*  美国医学物理年会-----[AAPM](https://aapm.org/pubs/default.asp)
 
-*  NIPS---------[Advances in Neural Information Processing Systems 30 ](http://papers.nips.cc/book/advances-in-neural-information-processing-systems-30-2017)
+*  神经信息处理系统NIPS---------[Advances in Neural Information Processing Systems 30 ](http://papers.nips.cc/book/advances-in-neural-information-processing-systems-30-2017)
 
 
-*  [medical image analysis---MICCAI顶会](https://www.miccai.org/ConferenceTopics)
+*  medical image analysis-----[MICCAI顶会](https://www.miccai.org/ConferenceTopics)
+
+*  国际机器学习顶会----[ICML](https://icml.cc/Conferences/2017/Tutorials)
 
 
 --------------------
