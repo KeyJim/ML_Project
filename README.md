@@ -50,7 +50,7 @@
 ------------
 
 
-# Day2 
+# Day2 ----- 基本模型
 
 ## 医学图像的分析任务
 
@@ -71,7 +71,7 @@
 #### 1 SAE-- AE组成的多层神经网络
 
 AE： 自动编码机，
-![]()
+![](https://github.com/LiuChuang0059/ML_Project/blob/master/Picture/%E8%87%AA%E5%8A%A8%E7%BC%96%E7%A0%81%E6%9C%BA.jpg)
 
 $$
 \begin{equation}
@@ -99,7 +99,7 @@ $$
 
 #### 2 受限玻尔兹曼机RBM
 
-![]()
+![](https://github.com/LiuChuang0059/ML_Project/blob/master/Picture/%E5%8F%97%E9%99%90%E7%8E%BB%E5%B0%94%E5%85%B9%E6%9B%BC%E6%9C%BA.jpg)
 
 * RBM是一个可视层和一个隐层的无向图模型
 
@@ -131,6 +131,8 @@ $$
 
 > 通常, CNN网络参数的训练算法与传统BP算法相似, 通过前向传播计算输出值, 然后将输出值与理想标签值的误差, 通过梯度下降法对最小化误差问题寻优, 再利用反向传播梯度调整CNN的参数.
 
+![](https://github.com/LiuChuang0059/ML_Project/blob/master/Picture/%E5%9F%BA%E4%BA%8ECNN%E7%9A%84%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%A7%86%E8%A7%89%E6%A1%86%E6%9E%B6.gif)
+
 #### 2RNN---具有反馈连接的循环神经网络
 
 > 其本质属性是网络的状态会随时间演化, 适用于提取数据的时序特征
@@ -142,6 +144,8 @@ http://html.rhhz.net/ZDHXBZWB/html/2018-3-401.htm
 -----------------
 -----------------
 
+
+# Day3  ------
 
 
 
