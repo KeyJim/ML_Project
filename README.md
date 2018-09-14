@@ -173,11 +173,30 @@ https://github.com/LiuChuang0059/Techs/blob/master/tensorflow/README.md
 
 # Day4 ----- 神经网络学习
 
-### 入门了解
+### 学习资料
+
 
 * youtube---3blue1brown---https://www.youtube.com/watch?v=aircAruvnKk&t=710s
 
 * b站----3blue1brown---https://www.bilibili.com/video/av15532370
+
+* YouTube---welch Labs---https://www.youtube.com/watch?v=bxe2T-V8XRs
+
+------
+
+* mlp----http://neuralnetworksanddeeplearning.com/chap1.html
+
+* cnn教程---斯坦福CS231n---https://zhuanlan.zhihu.com/p/22038289?refer=intelligentunit  （中文翻译）+  http://cs231n.github.io/convolutional-networks/（英文原版）
+
+
+
+### Note
+
+
+
+
+
+
 
 
 
