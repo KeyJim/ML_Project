@@ -145,8 +145,39 @@ http://html.rhhz.net/ZDHXBZWB/html/2018-3-401.htm
 -----------------
 
 
-# Day3  ------
+# Day3  ------ Tensorflow + keras 安装使用
 
+* tensorflow安装过程
+https://github.com/LiuChuang0059/Techs/blob/master/tensorflow/README.md
+
+
+* keras 安装以及 “hello world！”
+
+[数字识别--官方网站](https://github.com/keras-team/keras/blob/master/examples/mnist_mlp.py)
+
+[数字识别--代码详解](http://nooverfit.com/wp/keras-%E6%89%8B%E6%8A%8A%E6%89%8B%E5%85%A5%E9%97%A81-%E6%89%8B%E5%86%99%E6%95%B0%E5%AD%97%E8%AF%86%E5%88%AB-%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%AE%9E%E6%88%98/)
+
+[数字识别--过程可视化](http://nooverfit.com/wp/keras-%E6%89%8B%E6%8A%8A%E6%89%8B%E5%85%A5%E9%97%A81-%E6%89%8B%E5%86%99%E6%95%B0%E5%AD%97%E8%AF%86%E5%88%AB-%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%AE%9E%E6%88%98/
+)
+
+
+![](https://github.com/LiuChuang0059/ML_Project/blob/master/Picture/Keras_Test_result.png)
+
+### pS： 待解决问题： 部署gpu
+
+
+
+---------
+
+---------
+
+# Day4 ----- 神经网络学习
+
+### 入门了解
+
+* youtube---3blue1brown---https://www.youtube.com/watch?v=aircAruvnKk&t=710s
+
+* b站----3blue1brown---https://www.bilibili.com/video/av15532370
 
 
 
