@@ -204,22 +204,24 @@ https://github.com/LiuChuang0059/Techs/blob/master/tensorflow/README.md
 
 * 目标 通过多层网络（2层） 实现一个复杂函数从784 对应到10
 
-<div align="center">  <img src="https://github.com/LiuChuang0059/ML_Project/blob/master/Picture/MLP33.09.png" width=""/> </div><br>
+<div align="center">  <img src="https://github.com/LiuChuang0059/ML_Project/blob/master/Picture/MLP33.09.png" width="500"/> </div><br>
 
 * 实现需要 先识别 小的pattern，然后组合拼成大的pattern
-![](https://github.com/LiuChuang0059/ML_Project/blob/master/Picture/MLP24.14.png)
+<div align="center">  <img src="https://github.com/LiuChuang0059/ML_Project/blob/master/Picture/MLP24.14.png" width="500"/> </div><br>
+
 
 * 层之间映射的函数
+<div align="center">  <img src="https://github.com/LiuChuang0059/ML_Project/blob/master/Picture/MLP35.16.png" width="500"/> </div><br>
 
-![](https://github.com/LiuChuang0059/ML_Project/blob/master/Picture/MLP35.16.png)
 
-![](https://github.com/LiuChuang0059/ML_Project/blob/master/Picture/MLP31.55.png)
+<div align="center">  <img src="https://github.com/LiuChuang0059/ML_Project/blob/master/Picture/MLP31.55.png" width="500"/> </div><br>
 
-![](https://github.com/LiuChuang0059/ML_Project/blob/master/Picture/MLP31.14.png)
+<div align="center">  <img src="https://github.com/LiuChuang0059/ML_Project/blob/master/Picture/MLP31.14.png" width="500"/> </div><br>
 
 
 * 整个神经元对应的复杂函数需要确定的参数数量
-![](https://github.com/LiuChuang0059/ML_Project/blob/master/Picture/MLP29.21.png)
+<div align="center">  <img src="https://github.com/LiuChuang0059/ML_Project/blob/master/Picture/MLP29.21.png" width="500"/> </div><br>
+
 
 -----
 
