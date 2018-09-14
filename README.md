@@ -161,7 +161,7 @@ https://github.com/LiuChuang0059/Techs/blob/master/tensorflow/README.md
 )
 
 
-![](https://github.com/LiuChuang0059/ML_Project/blob/master/Picture/Keras_Test_result.png)
+<div align="center"> <img src="https://github.com/LiuChuang0059/ML_Project/blob/master/Picture/Keras_Test_result.png" width="500"/> </div><br>
 
 ### pS： 待解决问题： 部署gpu
 
@@ -173,7 +173,7 @@ https://github.com/LiuChuang0059/Techs/blob/master/tensorflow/README.md
 
 # Day4 ----- 神经网络学习
 
-### 学习资料
+## 学习资料
 
 
 * youtube---3blue1brown---https://www.youtube.com/watch?v=aircAruvnKk&t=710s
@@ -182,15 +182,53 @@ https://github.com/LiuChuang0059/Techs/blob/master/tensorflow/README.md
 
 * YouTube---welch Labs---https://www.youtube.com/watch?v=bxe2T-V8XRs
 
+* 网易云课堂--- 斯坦福cs231n---https://study.163.com/course/courseLearn.htm?courseId=1003223001#/learn/video?lessonId=1003978240&courseId=1003223001
+
 ------
 
 * mlp----http://neuralnetworksanddeeplearning.com/chap1.html
 
 * cnn教程---斯坦福CS231n---https://zhuanlan.zhihu.com/p/22038289?refer=intelligentunit  （中文翻译）+  http://cs231n.github.io/convolutional-networks/（英文原版）
 
+* cnn教程-- ---http://nooverfit.com/wp/pycon-2016-tensorflow-%E7%A0%94%E8%AE%A8%E4%BC%9A%E6%80%BB%E7%BB%93-tensorflow-%E6%89%8B%E6%8A%8A%E6%89%8B%E5%85%A5%E9%97%A8-%E7%94%A8%E4%BA%BA%E8%AF%9D%E8%A7%A3%E9%87%8Acnn-%E7%AC%AC%E4%B8%89/
 
 
-### Note
+## Note
+
+
+#### 1 MLP
+* example： 手写字符识别
+
+* 像素：28x28 =784  对应784个灰度值不同的神经元
+
+
+* 目标 通过多层网络（2层） 实现一个复杂函数从784 对应到10
+
+<div align="center">  <img src="https://github.com/LiuChuang0059/ML_Project/blob/master/Picture/MLP33.09.png" width=""/> </div><br>
+
+* 实现需要 先识别 小的pattern，然后组合拼成大的pattern
+![](https://github.com/LiuChuang0059/ML_Project/blob/master/Picture/MLP24.14.png)
+
+* 层之间映射的函数
+
+![](https://github.com/LiuChuang0059/ML_Project/blob/master/Picture/MLP35.16.png)
+
+![](https://github.com/LiuChuang0059/ML_Project/blob/master/Picture/MLP31.55.png)
+
+![](https://github.com/LiuChuang0059/ML_Project/blob/master/Picture/MLP31.14.png)
+
+
+* 整个神经元对应的复杂函数需要确定的参数数量
+![](https://github.com/LiuChuang0059/ML_Project/blob/master/Picture/MLP29.21.png)
+
+-----
+
+* 参数不可能全部手动配置，，引入梯度下降算法
+
+
+
+
+
 
 
 
