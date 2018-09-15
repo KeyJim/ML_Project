@@ -204,19 +204,19 @@ https://github.com/LiuChuang0059/Techs/blob/master/tensorflow/README.md
 
 * 目标 通过多层网络（2层） 实现一个复杂函数从784 对应到10
 
-<div align="center">  <img src="https://github.com/LiuChuang0059/ML_Project/blob/master/Picture/MLP33.09.png" width="500"/> </div><br>
+<div align="center">  <img src="https://github.com/LiuChuang0059/ML_Project/blob/master/Picture/MLP33.09.png" width="400"/> </div><br>
 
 * 实现需要 先识别 小的pattern，然后组合拼成大的pattern
-<div align="center">  <img src="https://github.com/LiuChuang0059/ML_Project/blob/master/Picture/MLP24.14.png" width="500"/> </div><br>
+<div align="center">  <img src="https://github.com/LiuChuang0059/ML_Project/blob/master/Picture/MLP24.14.png" width="400"/> </div><br>
 
 
 * 层之间映射的函数
-<div align="center">  <img src="https://github.com/LiuChuang0059/ML_Project/blob/master/Picture/MLP35.16.png" width="500"/> </div><br>
+<div align="center">  <img src="https://github.com/LiuChuang0059/ML_Project/blob/master/Picture/MLP35.16.png" width="400"/> </div><br>
 
 
-<div align="center">  <img src="https://github.com/LiuChuang0059/ML_Project/blob/master/Picture/MLP31.55.png" width="500"/> </div><br>
+<div align="center">  <img src="https://github.com/LiuChuang0059/ML_Project/blob/master/Picture/MLP31.55.png" width="400"/> </div><br>
 
-<div align="center">  <img src="https://github.com/LiuChuang0059/ML_Project/blob/master/Picture/MLP31.14.png" width="500"/> </div><br>
+<div align="center">  <img src="https://github.com/LiuChuang0059/ML_Project/blob/master/Picture/MLP31.14.png" width="400"/> </div><br>
 
 
 * 整个神经元对应的复杂函数需要确定的参数数量
@@ -225,17 +225,81 @@ https://github.com/LiuChuang0059/Techs/blob/master/tensorflow/README.md
 
 -----
 
-* 参数不可能全部手动配置，，引入梯度下降算法
+* 参数不可能全部手动配置，引入梯度下降算法。
+
+  * 最开始随机初始化参数的数值
+  
+  * 定义误差函数
+  <div align="center">  <img src="https://github.com/LiuChuang0059/ML_Project/blob/master/Picture/MLP37.15.png" width="500"/> </div><br>
+  
+  
+  * 改变权重和偏置值 ---梯度下降法  --多维连续平滑函数----所以神经元的值选取连续值
+  
+  
+* 整体识别过程
+
+<div align="center">  <img src="https://github.com/LiuChuang0059/ML_Project/blob/master/Picture/MLP47.13.png" width="400"/> </div><br>
 
 
 
+<div align="center">  <img src="https://github.com/LiuChuang0059/ML_Project/blob/master/Picture/MLP47.36.png" width="400"/> </div><br>  
+  
+  
+
+
+<div align="center">  <img src="https://github.com/LiuChuang0059/ML_Project/blob/master/Picture/MLP45.27.png" width="400"/> </div><br>  
+  
+  
+  
+* 实际上神网络并没有像我么预想的一层层分小块识别，而是如下图
+
+* 所以与其说MLP使机器识别了图片，不如是 机器记住了图片----机器只关注cost函数的误差梯度下降
+
+  
+<div align="center">  <img src="https://github.com/LiuChuang0059/ML_Project/blob/master/Picture/MLP04.54.png" width="400"/> </div><br>  
+
+--------
+
+**BP算法--反向传播**----计算上一步的梯度下降
+
+
+* 目标是不但要知道激活值应该变化的方向，还应该知道激活值变化的大小
+
+
+<div align="center">  <img src="https://github.com/LiuChuang0059/ML_Project/blob/master/Picture/BP40.00.png" width="400"/> </div><br>
+
+* 如何改变激活值---3个参数
+
+
+<div align="center">  <img src="https://github.com/LiuChuang0059/ML_Project/blob/master/Picture/BP44.47.png" width="400"/> </div><br>
+
+* 不但是对于目标数字的变化（变为1），还应该是所有其他的（变为0） 求和平均
+
+<div align="center">  <img src="https://github.com/LiuChuang0059/ML_Project/raw/master/Picture/BP47.33.png" width="400"/> </div><br>
+
+
+* 对数据集所有数据执行bp 对参数求平均确定最终数值
 
 
 
+* 但是所有数据每一次都求，计算速度太慢，，可以使用随机梯度下降法---随机分成minibatch，计算每个minibatch的梯度，直到全部计算完成。
+ 
+ 
+ ------------
+ 
+ **BP算法的数学表达**----主要为链式法则理解
+
+<div align="center">  <img src="https://github.com/LiuChuang0059/ML_Project/blob/master/Picture/BP41.19.png" width="400"/> </div><br>
 
 
+<div align="center">  <img src="https://github.com/LiuChuang0059/ML_Project/blob/master/Picture/BP58.55.png" width="400"/> </div><br>
+
+* 注意上一个激活值的微分有求和，因为会对每个下一层的激活值都有贡献
+<div align="center">  <img src="https://github.com/LiuChuang0059/ML_Project/blob/master/Picture/BP38.59.png" width="400"/> </div><br>
 
 
+---------
+---------
 
 
 
