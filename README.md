@@ -397,7 +397,7 @@ https://github.com/LiuChuang0059/Techs/blob/master/tensorflow/README.md
 
 <div align="center">  <img src="https://github.com/LiuChuang0059/ML_Project/blob/master/Picture/hidden_layer.png" width="100"/> </div><br>
 
-<div align="center">  <img src="https://github.com/LiuChuang0059/ML_Project/blob/master/Picture/hidden_layer2.png" width="100"/> </div><br>
+<div align="center">  <img src="https://github.com/LiuChuang0059/ML_Project/blob/master/Picture/hidden_layer2.png" width="200"/> </div><br>
 
 * 据此我们可以基本上推断出 这个image 是 0
 
@@ -422,6 +422,32 @@ https://github.com/LiuChuang0059/Techs/blob/master/tensorflow/README.md
  * 2.cost函数--- 二次平滑函数，便于求导  +  进行修改改善，根据经验二次函数更好
  
  * 3.梯度下降
+ 
+ * 4.随机梯度下降
+ 
+ > estimate the gradient ∇C by computing ∇Cx for a small sample of randomly chosen training inputs. 
+ 
+   * 随机选取m个作为mini-batch,m足够大，则m的梯度平均值等价于整体n的梯度平均值
+   
+ * 5. epoch 
+ 
+ >  选取m个计算，之后再选取一个minibatch --直到训练集的数据全部用完
+ 
+ >  使用mini-batch ：梯度估计可能会不准确，会有一些统计波动，但是不影响，因为我们不需要准确的梯度下降，需要大致的下降方向和数值。
+ 
+ <div align="center">  <img src="" width="400"/> </div><br>
+ 
+ 
+ ----------
+ 
+ ## Implementing our network to classify digits
+ 
+ 
+ ### 1 
+ * the MNIST data  was split into 60,000 training images, and 10,000 test images
+ * 60,000 training images = 50,000(train) + 10,000(validation)
+ 
+ 
  
  
 
