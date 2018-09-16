@@ -435,7 +435,7 @@ https://github.com/LiuChuang0059/Techs/blob/master/tensorflow/README.md
  
  >  使用mini-batch ：梯度估计可能会不准确，会有一些统计波动，但是不影响，因为我们不需要准确的梯度下降，需要大致的下降方向和数值。
  
- <div align="center">  <img src="" width="400"/> </div><br>
+ <div align="center">  <img src="https://github.com/LiuChuang0059/ML_Project/blob/master/Picture/Grandient_decend.png" width="400"/> </div><br>
  
  
  ----------
@@ -443,11 +443,11 @@ https://github.com/LiuChuang0059/Techs/blob/master/tensorflow/README.md
  ## Implementing our network to classify digits
  
  
- ### 1 
+ ### 1 pre
  * the MNIST data  was split into 60,000 training images, and 10,000 test images
  * 60,000 training images = 50,000(train) + 10,000(validation)
  
- 
+ ### 2 code 
  
  
 
