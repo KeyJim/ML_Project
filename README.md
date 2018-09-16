@@ -349,10 +349,81 @@ https://github.com/LiuChuang0059/Techs/blob/master/tensorflow/README.md
 
 <div align="center">  <img src="https://github.com/LiuChuang0059/ML_Project/blob/master/Picture/NAND_adder.png" width="400"/> </div><br>
 
+----------
+
 ## Sigmoid neurons
 
+* similar with Perception
+
+* modified so that small changes in their weights and bias cause only a small change in their output
 
 
+--------
+
+## The architecture of neural networks
+
+* hidden layer --- it really means nothing more than "not an input or an output"
+
+* feedforward neural network---where the output from one layer is used as input to the next layer
+
+
+
+<div align="center">  <img src="https://github.com/LiuChuang0059/ML_Project/blob/master/Picture/NN_structure.png" width="400"/> </div><br>
+
+* recurrent neural networks----待解决
+
+---------
+
+## A simple network to classify handwritten digits
+
+
+### To recognize individual digits we will use a three-layer neural network
+
+<div align="center">  <img src="https://github.com/LiuChuang0059/ML_Project/blob/master/Picture/Three_layer_NN.png" width="400"/> </div><br>
+
+* The input layer of the network contains neurons encoding the values of the input pixels----784 neurons
+
+* The second layer of the network is a hidden layer. We denote the number of neurons in this hidden layer by n
+
+* The output layer of the network contains 10 neurons.
+
+>  为什么使用10个神经元最后一层，而不是4个，（因为 4个的话 每个代表0或者1； 可以有16种结果）
+
+---------
+
+* 假设隐藏神经元检测是否有下图的样子
+
+* 通过增加该部分的权重，减小其他部分的权重
+
+<div align="center">  <img src="https://github.com/LiuChuang0059/ML_Project/blob/master/Picture/hidden_layer.png" width="100"/> </div><br>
+
+<div align="center">  <img src="https://github.com/LiuChuang0059/ML_Project/blob/master/Picture/hidden_layer2.png" width="100"/> </div><br>
+
+* 据此我们可以基本上推断出 这个image 是 0
+
+> 解释为什么不用4: 基于这种情况： There's no easy way to relate that most significant bit to simple shapes like those shown above.
+很难把最高有效位和图像的形状联系起来
+
+
+### Binary representation
+
+* The extra layer converts the output from the previous layer into a binary representation
+
+* the first 3 layers of neurons are such that the correct output in the third layer (i.e., the old output layer) has activation at least 0.99, and incorrect outputs have activation less than 0.01.
+
+<div align="center">  <img src="https://github.com/LiuChuang0059/ML_Project/blob/master/Picture/binary_out.png" width="400"/> </div><br>
+
+-------------
+
+## Learning with gradient descent
+
+ * 1.数据集---[MNIST data set](http://yann.lecun.com/exdb/mnist/)
+ 
+ * 2.cost函数--- 二次平滑函数，便于求导  +  进行修改改善，根据经验二次函数更好
+ 
+ * 3.梯度下降
+ 
+ 
 
 
 
