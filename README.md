@@ -301,7 +301,55 @@ https://github.com/LiuChuang0059/Techs/blob/master/tensorflow/README.md
 ---------
 ---------
 
+# Day5 --- Neural_Network (python 训练实现一个神经网络)
 
+[完整实现过程](https://github.com/LiuChuang0059/ML_Project/blob/master/code/Neural_Network_Demystified.ipynb)
+
+
+* 参考1 ---YouTube---Welch labs---https://www.youtube.com/watch?v=S4ZUwgesjS8
+
+* 参考2 ---https://www.youtube.com/redirect?v=S4ZUwgesjS8&event=video_description&redir_token=ipOr1avQb7xvqnG4wO3Sft2z_VB8MTUzNzA4NzAxM0AxNTM3MDAwNjEz&q=https%3A%2F%2Fgithub.com%2Fstephencwelch%2FNeural-Networks-Demystified
+
+
+* 待解决---还有些问题没有完全解决（train那里优化梯度下降 + 分割训练集和测试集后的处理）
+
+
+-------
+------
+# Day6 ----Using neural nets to recognize handwritten digits
+
+* 参考---[Neural Networks and Deep Learning](http://neuralnetworksanddeeplearning.com/chap1.html)  By Michael Nielse  
+
+## Perception --- artificial neuron
+
+
+#### define
+<div align="center">  <img src="https://github.com/LiuChuang0059/ML_Project/blob/master/Picture/perception.png" width="400"/> </div><br>
+
+
+* 给对应值一个权重以及一个 阈值   ； 大于阈值表示为1，小于阈值表示为0.
+
+* a many-layer network of perceptrons can engage in sophisticated decision making.
+
+<div align="center">  <img src="https://github.com/LiuChuang0059/ML_Project/blob/master/Picture/perception_complax.png" width="400"/> </div><br>
+**类似于量子力学里面的一维无限深势井 + 迪立科立函数**
+
+#### 应用1 --- 据测（0 or 1）：
+> Suppose the weekend is coming up, and you've heard that there's going to be a cheese festival in your city. You like cheese, and are trying to decide whether or not to go to the festival. You might make your decision by weighing up three factors:
+
+> For instance, we'd have x1=1 if the weather is good, and x1=0 if the weather is bad. Similarly, x2=1 if your boyfriend or girlfriend wants to go, and x2=0 if not. And similarly again for x3 and public transit.
+
+根据各个因素影响程度选定权重系数weight
+
+
+#### 应用2 ---计算逻辑函数 ： AND OR 之类
+
+
+<div align="center">  <img src="https://github.com/LiuChuang0059/ML_Project/blob/master/Picture/NAND_gate.png" width="400"/> </div><br>
+
+<div align="center">  <img src="https://github.com/LiuChuang0059/ML_Project/blob/master/Picture/NAND_adder.png" width="400"/> </div><br>
+
+## Sigmoid neurons
 
 
 
