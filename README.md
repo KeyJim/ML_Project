@@ -4,6 +4,46 @@
 
 > 项目进程每日记录
 
+ * [ML_Project](#ml_project)
+   * [Day1 --论文查找阅读](#day1---论文查找阅读)
+      * [会议期刊](#会议期刊)
+      * [综述文章](#综述文章)
+      * [papers汇总](#papers汇总)
+      * [具体意向项目](#具体意向项目)
+   * [Day2 ----- 基本模型](#day2-------基本模型)
+      * [医学图像的分析任务](#医学图像的分析任务)
+      * [深度学习模型](#深度学习模型)
+         * [1.无监督学习模型](#1无监督学习模型)
+            * [1 SAE-- AE组成的多层神经网络](#1-sae---ae组成的多层神经网络)
+            * [2 受限玻尔兹曼机RBM](#2-受限玻尔兹曼机rbm)
+         * [2.监督学习模型](#2监督学习模型)
+            * [1 CNN--卷积神经网络](#1-cnn--卷积神经网络)
+            * [2RNN---具有反馈连接的循环神经网络](#2rnn---具有反馈连接的循环神经网络)
+       * [参考](#参考)
+   * [Day3  ------ Tensorflow   keras 安装使用](#day3---------tensorflow--keras-安装使用)
+      * [pS： 待解决问题： 部署gpu](#ps-待解决问题-部署gpu)
+   * [Day4 ----- 神经网络学习](#day4-------神经网络学习)
+      * [学习资料](#学习资料)
+      * [Note](#note)
+           * [1 MLP](#1-mlp)
+   * [Day5 --- Neural_Network (python 训练实现一个神经网络)](#day5-----neural_network-python-训练实现一个神经网络)
+   * [Day6 ----Using neural nets to recognize handwritten digits](#day6-----using-neural-nets-to-recognize-handwritten-digits)
+      * [Perception --- artificial neuron](#perception-----artificial-neuron)
+          * [define](#define)
+          * [应用1 --- 据测（0 or 1）：](#应用1-----据测0-or-1)
+          * [应用2 ---计算逻辑函数 ： AND OR 之类](#应用2----计算逻辑函数--and-or-之类)
+      * [Sigmoid neurons](#sigmoid-neurons)
+      * [The architecture of neural networks](#the-architecture-of-neural-networks)
+      * [A simple network to classify handwritten digits](#a-simple-network-to-classify-handwritten-digits)
+         * [To recognize individual digits we will use a three-layer neural network](#to-recognize-individual-digits-we-will-use-a-three-layer-neural-network)
+         * [Binary representation](#binary-representation)
+      * [Learning with gradient descent](#learning-with-gradient-descent)
+      * [Implementing our network to classify digits](#implementing-our-network-to-classify-digits)
+         * [1 pre](#1-pre)
+         * [2 code](#2-code)
+   * [Day 7---实验方向](#day-7---实验方向)
+        * [1. AI读取脑波，重建人类思维-----<a href="https://yq.aliyun.com/articles/374287" rel="nofollow">https://yq.aliyun.com/articles/374287</a>](#1-ai读取脑波重建人类思维-----httpsyqaliyuncomarticles374287)
+        * [2. GAN之根据文本描述生成图像----<a href="https://blog.csdn.net/stdcoutzyx/article/details/78575240" rel="nofollow">https://blog.csdn.net/stdcoutzyx/article/details/78575240</a>](#2-gan之根据文本描述生成图像----httpsblogcsdnnetstdcoutzyxarticledetails78575240)
 
 
 
@@ -455,7 +495,7 @@ https://github.com/LiuChuang0059/Techs/blob/master/tensorflow/README.md
  
  ---------
  
- # Day 7---
+ # Day 7---实验方向
  
 ###  1. AI读取脑波，重建人类思维-----https://yq.aliyun.com/articles/374287
 
