@@ -452,15 +452,23 @@ https://github.com/LiuChuang0059/Techs/blob/master/tensorflow/README.md
  
  ---------
  
- Day 7---
+ # Day 7---
  
-* 1. AI读取脑波，重建人类思维-----https://yq.aliyun.com/articles/374287
+###  1. AI读取脑波，重建人类思维-----https://yq.aliyun.com/articles/374287
 
 <div align="center">  <img src="https://github.com/LiuChuang0059/ML_Project/blob/master/Picture/%E8%84%91%E7%94%B5%E6%B3%A2%E7%94%9F%E6%88%90%E5%9B%BE%E5%83%8F.jpeg" width="500"/> </div><br>
 
-* 2. GAN之根据文本描述生成图像----https://blog.csdn.net/stdcoutzyx/article/details/78575240
+
+* 模糊
+* 
+
+### 2. GAN之根据文本描述生成图像----https://blog.csdn.net/stdcoutzyx/article/details/78575240
 
 <div align="center">  <img src="https://github.com/LiuChuang0059/ML_Project/blob/master/Picture/gan%E7%94%9F%E6%88%90%E7%BD%91%E7%BB%9C.png" width="500"/> </div><br>
+
+
+* 提取波的特征-----随机向量---> 图像的对应
+
 
 
 
