@@ -505,12 +505,27 @@ https://github.com/LiuChuang0059/Techs/blob/master/tensorflow/README.md
 * 模糊
 * 
 
-### 2. GAN之根据文本描述生成图像----https://blog.csdn.net/stdcoutzyx/article/details/78575240
+###  2. GAN之根据文本描述生成图像----https://blog.csdn.net/stdcoutzyx/article/details/78575240
 
 <div align="center">  <img src="https://github.com/LiuChuang0059/ML_Project/blob/master/Picture/gan%E7%94%9F%E6%88%90%E7%BD%91%E7%BB%9C.png" width="500"/> </div><br>
 
 
 * 提取波的特征-----随机向量---> 图像的对应
+
+
+###  3.CNN 解决
+
+* 将波形图的数据对应于向量，多个想向量拼接成矩阵---对应于图片的像素矩阵
+
+* 使用cnn提取 波形图--> 图片  + 生成图片的特征
+
+* 特征比对 ，卷积降维。
+
+
+
+# Day8 ---CNN 学习
+
+
 
 
 
