@@ -525,10 +525,18 @@ https://github.com/LiuChuang0059/Techs/blob/master/tensorflow/README.md
 
 # Day8 ---CNN 学习
 
+## 学习资料
+
+* cs231课程---https://study.163.com/course/courseLearn.htm?courseId=1003223001#/learn/video?lessonId=1004009214&courseId=1003223001
+
+* cs231课堂笔记---https://zhuanlan.zhihu.com/p/22038289?refer=intelligentunit
 
 
+## CNN结构概述
+* 常规的神经网络，每个神经元与前一层的所有神经元连接，同一个隐层的神经元相互独立，---全连接层 
+  * 常规神经网络在大尺寸图像上 参数过多，效率低下，可能导致过拟合
 
-
+* 卷积神经网络
 
 
 
