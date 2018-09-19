@@ -219,21 +219,20 @@ https://github.com/LiuChuang0059/Techs/blob/master/tensorflow/README.md
 ## 学习资料
 
 
-* youtube---3blue1brown---https://www.youtube.com/watch?v=aircAruvnKk&t=710s
+* youtube---[3blue1brown](https://www.youtube.com/watch?v=aircAruvnKk&t=710s)
 
-* b站----3blue1brown---https://www.bilibili.com/video/av15532370
+* b站----[3blue1brown](https://www.bilibili.com/video/av15532370)
 
-* YouTube---welch Labs---https://www.youtube.com/watch?v=bxe2T-V8XRs
+* YouTube---[welch Labs](https://www.youtube.com/watch?v=bxe2T-V8XRs)
 
-* 网易云课堂--- 斯坦福cs231n---https://study.163.com/course/courseLearn.htm?courseId=1003223001#/learn/video?lessonId=1003978240&courseId=1003223001
+* 网易云课堂--- [斯坦福cs231n](https://study.163.com/course/courseLearn.htm?courseId=1003223001#/learn/video?lessonId=1003978240&courseId=1003223001)
 
 ------
 
-* mlp----http://neuralnetworksanddeeplearning.com/chap1.html
+* [mlp详解](http://neuralnetworksanddeeplearning.com/chap1.html)
 
-* cnn教程---斯坦福CS231n---https://zhuanlan.zhihu.com/p/22038289?refer=intelligentunit  （中文翻译）+  http://cs231n.github.io/convolutional-networks/（英文原版）
 
-* cnn教程-- ---http://nooverfit.com/wp/pycon-2016-tensorflow-%E7%A0%94%E8%AE%A8%E4%BC%9A%E6%80%BB%E7%BB%93-tensorflow-%E6%89%8B%E6%8A%8A%E6%89%8B%E5%85%A5%E9%97%A8-%E7%94%A8%E4%BA%BA%E8%AF%9D%E8%A7%A3%E9%87%8Acnn-%E7%AC%AC%E4%B8%89/
+* [cnn教程](http://nooverfit.com/wp/pycon-2016-tensorflow-%E7%A0%94%E8%AE%A8%E4%BC%9A%E6%80%BB%E7%BB%93-tensorflow-%E6%89%8B%E6%8A%8A%E6%89%8B%E5%85%A5%E9%97%A8-%E7%94%A8%E4%BA%BA%E8%AF%9D%E8%A7%A3%E9%87%8Acnn-%E7%AC%AC%E4%B8%89/)
 
 
 ## Note
@@ -349,9 +348,10 @@ https://github.com/LiuChuang0059/Techs/blob/master/tensorflow/README.md
 [完整实现过程](https://github.com/LiuChuang0059/ML_Project/blob/master/code/Neural_Network_Demystified.ipynb)
 
 
-* 参考1 ---YouTube---Welch labs---https://www.youtube.com/watch?v=S4ZUwgesjS8
+## 资料参考
+* 参考1 ---YouTube---[Welch labs](https://www.youtube.com/watch?v=S4ZUwgesjS8)
 
-* 参考2 ---https://www.youtube.com/redirect?v=S4ZUwgesjS8&event=video_description&redir_token=ipOr1avQb7xvqnG4wO3Sft2z_VB8MTUzNzA4NzAxM0AxNTM3MDAwNjEz&q=https%3A%2F%2Fgithub.com%2Fstephencwelch%2FNeural-Networks-Demystified
+* 参考2 ---[参考一对应GitHub代码](https://www.youtube.com/redirect?v=S4ZUwgesjS8&event=video_description&redir_token=ipOr1avQb7xvqnG4wO3Sft2z_VB8MTUzNzA4NzAxM0AxNTM3MDAwNjEz&q=https%3A%2F%2Fgithub.com%2Fstephencwelch%2FNeural-Networks-Demystified)
 
 
 * 待解决---还有些问题没有完全解决（train那里优化梯度下降 + 分割训练集和测试集后的处理）
@@ -497,7 +497,7 @@ https://github.com/LiuChuang0059/Techs/blob/master/tensorflow/README.md
  
  # Day 7---实验方向
  
-###  1. AI读取脑波，重建人类思维-----https://yq.aliyun.com/articles/374287
+###  1. AI读取脑波，重建人类思维-----[paper-link](https://yq.aliyun.com/articles/374287)
 
 <div align="center">  <img src="https://github.com/LiuChuang0059/ML_Project/blob/master/Picture/%E8%84%91%E7%94%B5%E6%B3%A2%E7%94%9F%E6%88%90%E5%9B%BE%E5%83%8F.jpeg" width="500"/> </div><br>
 
@@ -505,7 +505,7 @@ https://github.com/LiuChuang0059/Techs/blob/master/tensorflow/README.md
 * 模糊
 * 
 
-###  2. GAN之根据文本描述生成图像----https://blog.csdn.net/stdcoutzyx/article/details/78575240
+###  2. GAN之根据文本描述生成图像----[paper-link](https://blog.csdn.net/stdcoutzyx/article/details/78575240)
 
 <div align="center">  <img src="https://github.com/LiuChuang0059/ML_Project/blob/master/Picture/gan%E7%94%9F%E6%88%90%E7%BD%91%E7%BB%9C.png" width="500"/> </div><br>
 
@@ -527,12 +527,12 @@ https://github.com/LiuChuang0059/Techs/blob/master/tensorflow/README.md
 
 ## 学习资料
 
-* cs231课程---https://study.163.com/course/courseLearn.htm?courseId=1003223001#/learn/video?lessonId=1004009214&courseId=1003223001
+* cs231课程-cnn---[网易云课堂中文字幕](https://study.163.com/course/courseLearn.htm?courseId=1003223001#/learn/video?lessonId=1004009214&courseId=1003223001)
 
-* cs231课堂笔记中文翻译---https://zhuanlan.zhihu.com/p/22038289?refer=intelligentunit
+* [cs231课堂笔记中文翻译](https://zhuanlan.zhihu.com/p/22038289?refer=intelligentunit)
 
 > 很详尽
-* cs231 课堂笔记---http://cs231n.github.io/convolutional-networks/
+* [cs231 课堂笔记--官网英文原版](http://cs231n.github.io/convolutional-networks/)
 > 动图展示很直观
 
 ## CNN结构概述
@@ -592,7 +592,7 @@ https://github.com/LiuChuang0059/Techs/blob/master/tensorflow/README.md
 
 
 **卷积层运算演示**
-cs231课程笔记---http://cs231n.github.io/convolutional-networks/
+[动画演示link](http://cs231n.github.io/convolutional-networks/)
   
   
   
@@ -642,13 +642,13 @@ cs231课程笔记---http://cs231n.github.io/convolutional-networks/
 
 ## 学习资料
 
-* Neural Networks and Deep Learning---http://neuralnetworksanddeeplearning.com/index.html
+* [Neural Networks and Deep Learning---书籍网页](http://neuralnetworksanddeeplearning.com/index.html)
 
-* 《神经网络和深度学习》系列文章四十四：介绍卷积网络--https://mp.weixin.qq.com/s?__biz=MzIxMjAzNDY5Mg==&mid=2650790918&idx=1&sn=4fad7df685991d3dbbd2469fe8c5aedf&scene=21#wechat_redirect
+* [《神经网络和深度学习》系列文章四十四：介绍卷积网络](https://mp.weixin.qq.com/s?__biz=MzIxMjAzNDY5Mg==&mid=2650790918&idx=1&sn=4fad7df685991d3dbbd2469fe8c5aedf&scene=21#wechat_redirect)
 
-* 《神经网络和深度学习》系列文章四十五：卷积神经网络在实际中的应用---https://mp.weixin.qq.com/s?__biz=MzIxMjAzNDY5Mg==&mid=2650790932&idx=1&sn=10c8c5ee729d1fa200d2dd189f5edc38&chksm=8f4749ffb830c0e9a0efb8a6f944ba49c3419c995d8a07885f30afd3a0743040b266b5751255&scene=21#wechat_redirect
+* [《神经网络和深度学习》系列文章四十五：卷积神经网络在实际中的应用](https://mp.weixin.qq.com/s?__biz=MzIxMjAzNDY5Mg==&mid=2650790932&idx=1&sn=10c8c5ee729d1fa200d2dd189f5edc38&chksm=8f4749ffb830c0e9a0efb8a6f944ba49c3419c995d8a07885f30afd3a0743040b266b5751255&scene=21#wechat_redirect)
 
-* keras 手把手入门#1-MNIST手写数字识别---http://nooverfit.com/wp/keras-%E6%89%8B%E6%8A%8A%E6%89%8B%E5%85%A5%E9%97%A81-%E6%89%8B%E5%86%99%E6%95%B0%E5%AD%97%E8%AF%86%E5%88%AB-%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%AE%9E%E6%88%98/
+* [keras 手把手入门#1-MNIST手写数字识别](http://nooverfit.com/wp/keras-%E6%89%8B%E6%8A%8A%E6%89%8B%E5%85%A5%E9%97%A81-%E6%89%8B%E5%86%99%E6%95%B0%E5%AD%97%E8%AF%86%E5%88%AB-%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%AE%9E%E6%88%98/)
 
 
 ## 共享权重和偏置
