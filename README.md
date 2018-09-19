@@ -650,6 +650,9 @@ https://github.com/LiuChuang0059/Techs/blob/master/tensorflow/README.md
 
 * [keras 手把手入门#1-MNIST手写数字识别](http://nooverfit.com/wp/keras-%E6%89%8B%E6%8A%8A%E6%89%8B%E5%85%A5%E9%97%A81-%E6%89%8B%E5%86%99%E6%95%B0%E5%AD%97%E8%AF%86%E5%88%AB-%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%AE%9E%E6%88%98/)
 
+* [keras 中文文档](https://keras.io/zh/getting-started/sequential-model-guide/)
+
+* [keras学习之五：Keras中的神经网络层组件简介](https://blog.csdn.net/zzulp/article/details/76590712)
 
 ## 共享权重和偏置
 
@@ -663,5 +666,6 @@ https://github.com/LiuChuang0059/Techs/blob/master/tensorflow/README.md
 
 
 ## coding
+[cnn实现手写识别code+网络层组件学习](https://github.com/LiuChuang0059/ML_Project/blob/master/code/mnist_cnn_keras.ipynb)
 
-
+> 其中dropout避免过拟合---http://www.cs.toronto.edu/~rsalakhu/papers/srivastava14a.pdf
