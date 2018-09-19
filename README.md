@@ -666,6 +666,89 @@ https://github.com/LiuChuang0059/Techs/blob/master/tensorflow/README.md
 
 
 ## coding
-[cnn实现手写识别code+网络层组件学习](https://github.com/LiuChuang0059/ML_Project/blob/master/code/mnist_cnn_keras.ipynb)
+* [cnn实现手写识别code+网络层组件学习](https://github.com/LiuChuang0059/ML_Project/blob/master/code/mnist_cnn_keras.ipynb)
 
 > 其中dropout避免过拟合---http://www.cs.toronto.edu/~rsalakhu/papers/srivastava14a.pdf
+
+
+-----------
+-------------
+
+
+# Day 10 ---CNN学习（三）
+
+## 学习资料
+
+* [手写数字识别--卷积神经网络CNN原理详解](https://zhuanlan.zhihu.com/p/30665319)---by Charlotte
+
+* [如何用卷积神经网络CNN识别手写数字集？](https://www.cnblogs.com/charlotte77/p/5671136.html)----by Charlotte
+
+
+## 问题详解
+### 对于分类 ，相较于机器学习算法，为什么使用神经网络
+
+* 特征提取高效
+  > 特征数目过少，无法精确的分类出来---欠拟合，如果特征数目过多，可能会导致我们在分类过程中过于注重某个特征导致分类错误，即过拟合。
+  > 然而神经网络的出现使我们不需要做大量的特征工程，
+
+
+* 数据简介
+  > 需要对数据进行一些处理，譬如量纲的归一化，格式的转化
+  > 神经网络不需要过多的处理
+  
+*  参数数量少
+
+
+### 卷积层
+
+* 图像本身具有“二维空间特征”，通俗点说就是局部特性。譬如我们看一张猫的图片，可能看到猫的眼镜或者嘴巴就知道这是张猫片，而不需要说每个部分都看完了才知道，啊，原来这个是猫啊。所以如果我们可以用某种方式对一张图片的某个典型特征识别，那么这张图片的类别也就知道了
+
+* filter
+
+<div align="center">  <img src="https://github.com/LiuChuang0059/ML_Project/blob/master/Picture/%E5%8D%B7%E7%A7%AF%E6%93%8D%E4%BD%9C%E5%9B%BE%E8%A7%A3.jpg" width="500"/> </div><br>
+
+> 通过第一个卷积核计算后的feature_map是一个三维数据，在第三列的绝对值最大，说明原始图片上对应的地方有一条垂直方向的特征，即像素数值变化较大；而通过第二个卷积核计算后，第三列的数值为0，第二行的数值绝对值最大，说明原始图片上对应的地方有一条水平方向的特征。
+
+* 对于非正方形的卷积核，需要保证层的输出形状是整数
+
+* 卷积核的个数如何确定
+> 由经验确定。通常情况下，靠近输入的卷积层，譬如第一层卷积层，会找出一些共性的特征，如手写数字识别中第一层我们设定卷积核个数为5个，一般是找出诸如"横线"、“竖线”、“斜线”等共性特征，我们称之为basic feature，经过max pooling后，在第二层卷积层，设定卷积核个数为20个，可以找出一些相对复杂的特征，如“横折”、“左半圆”、“右半圆”等特征，越往后，卷积核设定的数目越多，越能体现label的特征就越细致，就越容易分类出来
+
+
+### MAX pooling
+
+* 进行Max Pooling操作后，提取出的是真正能够识别特征的数值，其余被舍弃的数值，对于我提取特定的特征并没有特别大的帮助
+
+* 减小了feature map的尺寸，从而减少参数，达到减小计算量，缺不损失效果的情况。
+
+* 把卷积后不加Max Pooling的结果与卷积后加了Max Pooling的结果输出对比一下，看看Max Pooling是否对卷积核提取特征起了反效果。
+
+### Flatten 层
+
+
+<div align="center">  <img src="https://github.com/LiuChuang0059/ML_Project/blob/master/Picture/flatten%E5%B1%82%E8%BF%87%E7%A8%8B.jpg" width="500"/> </div><br>
+
+
+
+-----------
+------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
