@@ -523,7 +523,7 @@ https://github.com/LiuChuang0059/Techs/blob/master/tensorflow/README.md
 
 
 
-# Day8 ---CNN 学习
+# Day8 ---CNN 学习（一）
 
 ## 学习资料
 
@@ -638,5 +638,30 @@ cs231课程笔记---http://cs231n.github.io/convolutional-networks/
 -------
 -------
 
+# Day9 --- CNN学习（二）
+
+## 学习资料
+
+* Neural Networks and Deep Learning---http://neuralnetworksanddeeplearning.com/index.html
+
+* 《神经网络和深度学习》系列文章四十四：介绍卷积网络--https://mp.weixin.qq.com/s?__biz=MzIxMjAzNDY5Mg==&mid=2650790918&idx=1&sn=4fad7df685991d3dbbd2469fe8c5aedf&scene=21#wechat_redirect
+
+* 《神经网络和深度学习》系列文章四十五：卷积神经网络在实际中的应用---https://mp.weixin.qq.com/s?__biz=MzIxMjAzNDY5Mg==&mid=2650790932&idx=1&sn=10c8c5ee729d1fa200d2dd189f5edc38&chksm=8f4749ffb830c0e9a0efb8a6f944ba49c3419c995d8a07885f30afd3a0743040b266b5751255&scene=21#wechat_redirect
+
+* keras 手把手入门#1-MNIST手写数字识别---http://nooverfit.com/wp/keras-%E6%89%8B%E6%8A%8A%E6%89%8B%E5%85%A5%E9%97%A81-%E6%89%8B%E5%86%99%E6%95%B0%E5%AD%97%E8%AF%86%E5%88%AB-%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%AE%9E%E6%88%98/
+
+
+## 共享权重和偏置
+
+
+* 第一个隐藏层的所有神经元检测完全相同的特征
+> 在一个特定的局部感受野的垂直边缘。这种能力在图像的其它位置也很可能是有用的
+
+>>> 用稍微更抽象的术语，卷积网络能很好地适应图像的平移不变性：例如稍稍移动一幅猫的图像，它仍然是一幅猫的图像
+
+* 优点： 大大减少了卷积网络的参数
+
+
+## coding
 
 
