@@ -875,21 +875,95 @@ https://github.com/LiuChuang0059/Techs/blob/master/tensorflow/README.md
 #### 3 Other techniques for regularization
 
 * L1 regularization
+  * In L1 regularization, the weights shrink by a constant amount toward 0. 
+  * In L2 regularization, the weights shrink by an amount which is proportional to 
+
+---------
+
+* Dropout--- modify the network itself
+  > randomly and temporarily deleting half the hidden neurons in the network,while leaving the input and output neurons untouched
+
+*  forward-propagate the input x through the modified network
+*  update the appropriate weights and biases
+*  restoring the dropout neurons, choosing a new random subset of hidden neurons to delete
+*  we actually run the full network , halve the weights outgoing from the hidden neurons.
+
+-----------
+
+**Why**
+
+* The different networks may overfit in different ways, and averaging may help eliminate that kind of overfitting.
+
+* The dropout procedure is like averaging the effects of a very large number of different networks.
+
+* if we think of our network as a model which is making predictions, then we can think of dropout as a way of making sure that the model is robust to the loss of any individual piece of evidence
+
+  > "This technique reduces complex co-adaptations of neurons, since a neuron cannot rely on the presence of particular other neurons. It is, therefore, forced to learn more robust features that are useful in conjunction with many different random subsets of the other neurons." ---- *ImageNet Classification with Deep Convolutional Neural Networks, by Alex Krizhevsky, Ilya Sutskever, and Geoffrey Hinton (2012).
 
 
-* Dropout
+**A combination of dropout and a modified form of L2 regularization**
 
 
+#### 4 Artificially expanding the training data
+
+-------
+
+### 4 Choose a neural network's hyper-parameters
 
 
+* speed up experimentation 
+  *  The simplest network likely to do meaningful learning
+  *  Increasing the frequency of monitoring
 
+-----
 
+* Learning rate:
+  * If η is too large then the steps will be so large that they may actually overshoot the minimum
+  
+  * Choosing η so small slows down stochastic gradient descent
 
+      * First, we estimate the threshold value for η  
+      
+      * A factor of two below the threshold
+      
+      * Its primary purpose is really to control the step size in gradient descent, and monitoring the training cost is the best way to detect if the step size is too big.
+  
+  **vary the learning rate**
+  
+  * To hold the learning rate constant until the validation accuracy starts to get worse, then decrease the learning rate by some amount, say a factor of two or ten.
+  
+ 
+ --------
+ 
+* Training epochs: early stopping
 
+  * At the end of each epoch , compute the classification accuracy on the validation data. When that stops improving **for quite some time**,terminate.
+  > Using the no-improvement-in-ten rule for initial experimentation, and gradually adopting more lenient rule.
 
+-------
 
-
-
+* The regularization parameter, λ:
+  * Starting initially with no regularization (λ=0.0)
+  * Determining a value for η
+  * Use the validation data to select a good value for λ
+  * Start by trialling λ=1.0 , increase or decrease by factors of 10, depend on the validation data
+  * Found a good order of magnitude, you can fine tune  λ.
+  * re-optimize η again.
+  
+  ------
+  
+* Mini-batch size:
+  * Too small, and you don't get to take full advantage of the benefits of good matrix libraries optimized for fast hardware. 
+  
+  * Too small, and you don't get to take full advantage of the benefits of good matrix libraries optimized for fast hardware. 
+  
+  
+### 5 Automated techniques : 
+  * grid search
+    >  systematically searches through a grid in hyper-parameter space.
+    > Random search for hyper-parameter optimization, by James Bergstra and Yoshua Bengio (2012).
+  * Bayesian approach
+  > Practical Bayesian optimization of machine learning algorithms, by Jasper Snoek, Hugo Larochelle, and Ryan Adams.
 
 
 
