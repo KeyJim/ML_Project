@@ -789,6 +789,101 @@ https://github.com/LiuChuang0059/Techs/blob/master/tensorflow/README.md
 * we can get from X+Y
 <div align="center">  <img src="https://github.com/LiuChuang0059/ML_Project/blob/master/Picture/2D-XY.png" width="400"/> </div><br>
 
+----------------
+----------------
+
+# Day 12 ---  Improving the way neural networks learn
+
+
+### 1. The cross-entropy cost function
+
+> Artificial neuron has a lot of difficulty learning when it's badly wrong - far more difficulty than when it's just a little wrong
+
+* neuron's output is close to 1, the curve gets very flat, ∂C/∂w and ∂C/∂b get very small. 
+
+<div align="center">  <img src="https://github.com/LiuChuang0059/ML_Project/blob/master/Picture/Sigmoid-func.png" width="400"/> </div><br>
+
+*  cross-entropy cost function
+
+<div align="center">  <img src="https://github.com/LiuChuang0059/ML_Project/blob/master/Picture/Cross.png" width="400"/> </div><br>
+  
+  * the cross-entropy is positive
+  
+  * tends toward zero as the neuron gets better at computing the desired output
+  
+  * it avoids the problem of learning slowing down: rate at which the weight learns is controlled by σ(z)−y ---- the error in the output
+
+
+<div align="center">  <img src="https://github.com/LiuChuang0059/ML_Project/blob/master/Picture/Decent.png" width="400"/> </div><br>
+
+
+### 2 Softmax
+* If one activation increases, then the other output activations must decrease by the same total amount, to ensure the sum over all activations remains 1
+
+* the output from the softmax layer can be thought of as a probability distribution.
+
+
+
+<div align="center">  <img src="https://github.com/LiuChuang0059/ML_Project/blob/master/Picture/SoftMax.png" width="400"/> </div><br>
+
+
+* log-likelihood cost function to solve learning slowdown problem
+
+
+
+### 3 Overfitting and regularization   ----- Small
+
+#### 1 Overfit 
+
+* To detect overfitting : we can keep  track of accuracy on the test data as our network trains. 
+
+* Better to test data and the training data both stop improving at the same time.
+
+------
+**Early Stopping**
+
+* use the validation_data (different from train_data test_data) to prevenr overfitting
+
+  > Compute the classification accuracy on the validation_data at the end of each epoch. Once the classification accuracy on the validation_data has saturated, we stop trainin
+
+* Why not test_data: we may end up finding hyper-parameters which fit particular peculiarities of the test_data, but where the performance of the network won't generalize to other data sets
+
+* Once we've got the hyper-parameters we want, we do a final evaluation of accuracy using the test_data
+
+
+#### 2 Regularization---- reduce overfitting and to increase classification accuracies(weight decay)
+> The idea of L2 regularization is to add an extra term to the cost function, a term called the regularization term.
+
+<div align="center">  <img src="https://github.com/LiuChuang0059/ML_Project/blob/master/Picture/Regulation.png" width="400"/> </div><br>
+
+* add the sum of the squares of all the weights in the network
+
+  *  a way of compromising between finding small weights and minimizing the original cost function
+  
+  * when λ is small we prefer to minimize the original cost function, but when λ is large we prefer small weights.
+
+------
+**Why?**
+> smaller weights are, in some sense, lower complexity, and so provide a simpler and more powerful explanation for the data, and should thus be preferred
+
+* higher order really just learning the effects of local noise
+
+*  The smallness of the weights means that the behaviour of the network won't change too much if we change a few random inputs here and there. That makes it difficult for a regularized network to learn the effects of local noise in the data
+
+> sometimes the more complex explanation turns out to be correct.
+
+#### 3 Other techniques for regularization
+
+* L1 regularization
+
+
+* Dropout
+
+
+
+
+
+
 
 
 
