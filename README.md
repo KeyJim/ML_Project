@@ -733,7 +733,53 @@ https://github.com/LiuChuang0059/Techs/blob/master/tensorflow/README.md
 -----------
 ------------
 
+# Day 11  --- 神经网络可以计算所有的函数
 
+### Theorems
+> A neural network can compute any function
+  * we can get an approximation .By increasing the number of hidden neurons, we can improve the approximation. We can set a desired accuracy.
+  * continuous functions better .
+
+<div align="center">  <img src="https://github.com/LiuChuang0059/ML_Project/blob/master/Picture/Netural-network.png" width="400"/> </div><br>
+*  even function has many inputs,  and many outputs
+
+<div align="center">  <img src="" width="400"/> </div><br>
+*  even a  single hidden layer
+
+
+### 1 : One input and one output
+
+* Single hidden layer : two neurons.  σ(wx+b), where σ(z)≡1/(1+e−z)
+
+* Focus on the top neuron
+<div align="center">  <img src="" width="400"/> </div><br>
+
+* Since the w is large enough ,we can get the Step func 
+<div align="center">  <img src="https://github.com/LiuChuang0059/ML_Project/blob/master/Picture/Step-func.jpg" width="400"/> </div><br>
+
+* We can find  the step is at position s=−b/w
+<div align="center">  <img src="https://github.com/LiuChuang0059/ML_Project/blob/master/Picture/step_position.png" width="400"/> </div><br>
+
+* Focus on entire network
+
+<div align="center">  <img src="https://github.com/LiuChuang0059/ML_Project/blob/master/Picture/Entire%20network.png" width="400"/> </div><br>
+
+
+* We can get a bump function ---  set the height :h
+<div align="center">  <img src="https://github.com/LiuChuang0059/ML_Project/blob/master/Picture/bump_function.jpg" width="400"/> </div><br>
+
+* We can use our bump-making trick to get two bumps, by gluing two pairs of hidden neurons together into the same network:
+* By changing the output weights we're actually designing the function
+
+<div align="center">  <img src="https://github.com/LiuChuang0059/ML_Project/blob/master/Picture/5bump_func.png" width="400"/> </div><br>
+
+
+
+### 2 Many input values
+
+* With w2=0 the input y makes no difference to the output from the neuron
+
+*  The actual location of the step point is sx≡−b/w1.
 
 
 
