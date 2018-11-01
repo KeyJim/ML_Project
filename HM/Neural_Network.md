@@ -8,22 +8,21 @@
 <div align="center">  <img src="https://github.com/LiuChuang0059/ML_Project/blob/master/Picture/perception.png" width="400"/> </div><br>
 
 
-* 给对应值一个权重以及一个 阈值   ； 大于阈值表示为1，小于阈值表示为0.
+*  A weight and a bias    ； > bias : 1  ; < bias : 0.
 
 * a many-layer network of perceptrons can engage in sophisticated decision making.
 
 <div align="center">  <img src="https://github.com/LiuChuang0059/ML_Project/blob/master/Picture/perception_complax.png" width="400"/> </div><br>
-**类似于量子力学里面的一维无限深势井 + 迪立科立函数**
 
-#### Apply 1 --- 预测（0 or 1）：
+
+#### Apply 1 --- prediction（0 or 1）：
 > Suppose the weekend is coming up, and you've heard that there's going to be a cheese festival in your city. You like cheese, and are trying to decide whether or not to go to the festival. You might make your decision by weighing up three factors:
 
 > For instance, we'd have x1=1 if the weather is good, and x1=0 if the weather is bad. Similarly, x2=1 if your boyfriend or girlfriend wants to go, and x2=0 if not. And similarly again for x3 and public transit.
 
-根据各个因素影响程度选定权重系数weight
 
 
-#### Apply 2 ---计算逻辑函数 ： AND OR 之类
+#### Apply 2 ---Computational logic function ： AND OR ...
 
 
 <div align="center">  <img src="https://github.com/LiuChuang0059/ML_Project/blob/master/Picture/NAND_gate.png" width="400"/> </div><br>
