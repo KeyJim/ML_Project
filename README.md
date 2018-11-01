@@ -968,6 +968,20 @@ https://github.com/LiuChuang0059/Techs/blob/master/tensorflow/README.md
 
 
 
+### 6 Other models of artificial neuron
+
+*  tanh --- [-1 ,1]
+*  max
+
+
+### 7 Variations on stochastic gradient descent
+
+* Hessian technique
+
+* Momentum-based gradient descent
+
+
+
 
 
 
