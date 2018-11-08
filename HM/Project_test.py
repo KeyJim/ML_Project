@@ -20,8 +20,6 @@ import matplotlib.pyplot as plt
 from pandas import DataFrame
 
 
-# In[9]:
-
 
 dframe = pd.read_excel("test.xlsx")
 test = DataFrame(dframe)
@@ -33,22 +31,12 @@ from sklearn.model_selection import train_test_split
 x_train, x_test, y_train, y_test = train_test_split(X, Y, test_size=0.30, random_state=30)
 
 
-# In[10]:
+
 
 
 y_train = np_utils.to_categorical(y_train)
 y_test = np_utils.to_categorical(y_test)
 num_classes = y_test.shape[1]
-
-
-# In[12]:
-
-
-num_classes
-#y_test
-
-
-# In[14]:
 
 
 model = Sequential()
