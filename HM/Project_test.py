@@ -1,7 +1,11 @@
 
 # coding: utf-8
 
-# In[8]:
+# 基于keras 的三层神经网络
+# 输入为 100*302 的矩阵  ： 100组数据，每组302个变量 [数据link](https://github.com/LiuChuang0059/ML_Project/blob/master/Data/test.xlsx)
+# Adam加速
+# 目前准确率 为 98%
+
 
 
 import tensorflow as tf
@@ -59,7 +63,7 @@ model.compile(loss='binary_crossentropy',
               metrics=['accuracy'])
 
 model.fit(x_train, y_train,
-          epochs=50,
+          epochs=500,
           batch_size=20)
 score = model.evaluate(x_test, y_test, batch_size=10)
 print(model.metrics_names)
