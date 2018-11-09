@@ -4,6 +4,10 @@
 Created on Fri Nov  9 17:57:02 2018
 
 @author: liuchuang
+
+使用Tpot 自动进行参数优化
+最好的模型是 LinearSVC -- 准确率 89.15%
+自动生成文件--[link](https://github.com/LiuChuang0059/ML_Project/blob/master/HM/tpot_mnist_pipeline.py)
 """
 
 from tpot import TPOTClassifier
