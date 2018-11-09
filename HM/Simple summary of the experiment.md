@@ -1,4 +1,4 @@
-# Simple summary of the experimental
+# Simple summary of the experiment
 
 
 
