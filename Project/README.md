@@ -42,6 +42,29 @@
 
 ### 2 训练结果
 
+<div align="center"> <img src="https://github.com/LiuChuang0059/ML_Project/blob/master/Project/test_result/LSTM/4001epoch-2layer-0.2dropout-50batchsize.png" width="600"/> </div><br>
+
+-------
 
 
+## Model 3 --- [Project-3]()
+
+* 数据同 Model 2  --- 200组训练数据
+
+* BiLSTM
+
+<div align="center"> <img src="https://github.com/LiuChuang0059/ML_Project/blob/master/Project/BiLSTM-model.png" width="800"/> </div><br>
+
+
+### 2 训练结果
+
+
+
+
+<div align="center"> <img src="https://github.com/LiuChuang0059/ML_Project/blob/master/Project/test_result/BiLSTM/1500-50-1.png" width="600"/> </div><br>
+
+
+
+
+<div align="center"> <img src="https://github.com/LiuChuang0059/ML_Project/blob/master/Project/test_result/BiLSTM/3000-50-1.png" width="600"/> </div><br>
 
