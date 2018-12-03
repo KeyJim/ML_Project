@@ -85,7 +85,7 @@
 
 
 
-🌟 Keep all historical information 
+🌟 Keep all historical information
 
 <div align="center"> <img src="https://github.com/LiuChuang0059/ComplexNetwork-DataMining/blob/master/techs/Image/TCN%E7%BB%93%E6%9E%84.png" width="800"/> </div><br>
 
